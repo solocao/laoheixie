@@ -21,15 +21,69 @@
         <a class="icon_login" href="#"></a>
       </li>
       <li class="box-cart nav-top-cart-wrapper">
+        <!-- <li class="box-cart"> -->
+
         <a class="icon_cart nav-cart-trigger active" href="#">
           <span>3</span>
         </a>
         <div class="nav-shop-cart">
-          <div class="widget_shopping_cart_content">
+          <!-- 购物车 -->
+          <div class="cart-dropdown">
+            <ul>
+              <li class="single-cart-item">
+                <div class="cart-img">
+                  <a href="single-product.html">
+                    <img src="images/shop/sh-3/1.jpg" alt="">
+                  </a>
+                </div>
+                <div class="cart-content">
+                  <h5 class="product-name">
+                    <a href="single-product.html">Odio</a>
+                  </h5>
+                  <span class="cart-price">1 × $90.00</span>
+                </div>
+                <div class="cart-remove">
+                  <a title="Remove" href="#">
+                    <i class="fa fa-times"></i>
+                  </a>
+                </div>
+              </li>
+              <li class="single-cart-item">
+                <div class="cart-img">
+                  <a href="single-product.html">
+                    <img src="images/shop/sh-3/2.jpg" alt="">
+                  </a>
+                </div>
+                <div class="cart-content">
+                  <h5 class="product-name">
+                    <a href="single-product.html">Auctor</a>
+                  </h5>
+                  <span class="cart-price">1 × $100.00</span>
+                </div>
+                <div class="cart-remove">
+                  <a title="Remove" href="#">
+                    <i class="fa fa-times"></i>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <p class="cart-subtotal">
+              <strong>Subtotal:</strong>
+              <span class="float-right">$190.00</span>
+            </p>
+            <p class="cart-btn">
+              <a href="cart.html">View cart</a>
+              <a href="checkout.html">Checkout</a>
+            </p>
+          </div>
+          <div v-if="false" class="widget_shopping_cart_content">
             <div class="woocommerce-min-cart-wrap">
               <ul class="woocommerce-mini-cart cart_list product_list_widget ">
                 <li class="woocommerce-mini-cart-item mini_cart_item">
                   <span>No Items in Shopping Cart</span>
+                </li>
+                <li class="woocommerce-mini-cart-item mini_cart_item">
+                  <span>No Items in Shopping Cart131</span>
                 </li>
               </ul>
             </div>

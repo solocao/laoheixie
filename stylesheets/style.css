@@ -1102,7 +1102,7 @@ h6 { font-size: 14px; line-height: 48px; font-weight: 400;}
 
 /* Shop cart */
 .nav-top-cart-wrapper .nav-shop-cart {
-	width: 270px;
+	width: 360px;
     filter: alpha(opacity=0);
     opacity: 0;
     visibility: hidden;
@@ -1119,11 +1119,11 @@ h6 { font-size: 14px; line-height: 48px; font-weight: 400;}
     box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
     -webkit-transition: all ease-in-out 0.3s;
     -moz-transition: all ease-in-out 0.3s;
-    transition: all ease-in-out 0.3s;
+		transition: all ease-in-out 0.3s;
 }
 
 .nav-top-cart-wrapper .woocommerce-min-cart-wrap {
-	padding: 10px 30px;
+	padding: 0px 0px;
 }
 
 .nav-top-cart-wrapper .nav-shop-cart ul li {
