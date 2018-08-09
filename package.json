@@ -1,0 +1,14 @@
+{
+  "name": "laoheixie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/solocao/laoheixie.git",
+  "author": "caowei <solocao@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "bb": "babel js/header.js -o js/header-es5.js -w"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
