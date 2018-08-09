@@ -460,6 +460,10 @@ regjsparser@^0.1.4:
   dependencies:
     jsesc "~0.5.0"
 
+requirejs-text@^2.0.15:
+  version "2.0.15"
+  resolved "http://registry.npm.taobao.org/requirejs-text/download/requirejs-text-2.0.15.tgz#13138733613fc4457b7e1247e8cb751df7aa5429"
+
 strip-ansi@^3.0.0:
   version "3.0.1"
   resolved "http://registry.npm.taobao.org/strip-ansi/download/strip-ansi-3.0.1.tgz#6a385fb8853d952d5ff05d0e8aaf94278dc63dcf"

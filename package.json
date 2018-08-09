@@ -9,6 +9,7 @@
     "bb": "babel js/header.js -o js/header-es5.js -w"
   },
   "dependencies": {
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "requirejs-text": "^2.0.15"
   }
 }
